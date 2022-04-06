@@ -1,0 +1,144 @@
+{
+    "assignment_id":"8f656547-7da0-4d5e-8e56-b16d2daaf584",
+    "first_name":"Shaik",
+    "state":"Andhra Pradesh",
+    "city":"Cuddapah",
+    "assessment_date":"20/03/2022",
+    "grade":"8",
+    "overall_percentile":"92.3",
+    "overall_analytics":{
+       "state_percentile":"36.9",
+       "city_percentile":"58.3",
+       "overall_percentile":"92.3",
+       "percentage":"76",
+       "total_score":"3",
+       "total_questions":"10",
+       "overall_percentage":"1.21",
+       "attempted":"50",
+       "correct":"26",
+       "total_time_taken":"28 mins, 4 secs",
+       "sections":[
+ {
+          "label":"Academics",
+          "city_percentile":"58.3",
+          "state_percentile":"36.9",
+          "overall_percentile":"92.3",
+          "total_score":"2",
+          "total_questions":"100",
+          "percentage":"76"
+       },
+       {
+          "label":"Aptitude",
+          "city_percentile":"58.3",
+          "state_percentile":"36.9",
+          "overall_percentile":"92.3",
+          "total_score":"2",
+          "total_questions":"100",
+          "percentage":"76"
+       }
+     ],
+       "trait":{
+          "name":"Rigour",
+          "narrative":"You are not afraid of challenging problems,you take them head on!"
+       }
+    },
+    "academic_analysis":[
+       {
+          "name":"Math",
+          "postion":"beginner",
+          "city_percentile":"58.3",
+          "state_percentile":"36.9",
+          "overall_percentile":"92.3",
+          "total_score":"2",
+          "total_questions":"100",
+          "percentage":"76",
+          "subject_narrative":"You are at the emerging level in the road to mastery.Focus on weaker concepts and improve yourscores to achieve mastery!",
+          "unit_analysis":[
+             {
+                "name":"Algebra",
+                "total_score":"2",
+                "total_questions":"10"
+             },
+             {
+                "name":"Geometry",
+                "total_score":"2",
+                "total_questions":"12"
+             }
+          ],
+          "unit_narrative":"You are at the emerging level "
+       },
+       {
+          "name":"Science",
+          "postion":"beginner",
+          "city_percentile":"58.3",
+          "state_percentile":"36.9",
+          "overall_percentile":"92.3",
+          "total_score":"2",
+          "total_questions":"100",
+          "percentage":"76",
+          "subject_narrative":"You are at the emerging level in the road to mastery.",
+          "unit_analysis":[
+             {
+                "name":"Chemistry",
+                "total_score":"2",
+                "total_questions":"10"
+             },
+             {
+                "name":"Bio",
+                "total_score":"2",
+                "total_questions":"10"
+             }
+          ],
+          "unit_narrative":"You scored excellent in Numbers while Statistics is a focus area."
+       }
+    ],
+    "academic_skill_analysis":{
+       "skills":[
+          {
+             "name":"Conceptual",
+             "total_score":"2",
+             "total_questions":"10",
+             "percentage":"43"
+          },
+          {
+             "name":"Application Based",
+             "total_score":"2",
+             "total_questions":"10",
+             "percentage":"43"
+          }
+       ],
+       "narrative": "Tarun has shown good conceptual understanding with conceptsin Geometry, Numbers, Algebra, Biology. This is really good."
+    },
+    "aptitude_analysis":[
+       {
+          "name":"Quantitative Abiity",
+          "total_score":"2",
+          "total_questions":"10",
+          "city_percentile":"58.3",
+          "state_percentile":"36.9",
+          "overall_percentile":"92.3",
+          "percentage":"67",
+          "narrative":"f sf sf "
+       },
+       {
+          "name":"Verbal Ability",
+          "total_score":"1",
+          "total_questions":"10",
+          "city_percentile":"58.3",
+          "state_percentile":"36.9",
+          "overall_percentile":"92.3",
+          "percentage":"67",
+          "narrative":"f sf sf "
+       },
+       {
+          "name":"Logical Ability",
+          "total_score":"2",
+          "total_questions":"10",
+          "city_percentile":"58.3",
+          "state_percentile":"36.9",
+          "overall_percentile":"92.3",
+          "percentage":"67",
+          "narrative":"f sf sf "
+       }
+    ]
+ }
