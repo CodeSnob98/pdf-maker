@@ -77,15 +77,6 @@ section {
   border-bottom: 1px solid white;
 }
 /* Banners */
-.banner {
-  background: linear-gradient(180deg, #8a4493 0%, rgb(93 51 134) 100%);
-  padding: 20px;
-  border-radius: 30px;
-  margin: 20px 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .callout {
   background: linear-gradient(180deg, #8a4493 0%, rgb(93 51 134) 100%);
   padding: 30px;
@@ -280,6 +271,13 @@ body {
   width: 90%;
   margin: 20px 30px;
 }
+.divider-vertical {
+  height: 68px;
+  background: linear-gradient(90deg, #d860a3 10%, #95529f 90%);
+  opacity: 0.7;
+  border-radius: 200;
+  width: 2px;
+}
 /* Flex */
 .justifyCenter {
   display: flex;
@@ -390,6 +388,12 @@ body {
 .ml65 {
   margin-left: 65px;
 }
+.ml30 {
+  margin-left: 30px;
+}
+.ml125 {
+  margin-left: 125px;
+}
 .spaceEvenly {
   display: flex;
   justify-content: space-evenly;
@@ -398,7 +402,7 @@ body {
   font-size: 20px;
 }
 .card-v2 {
-  min-height: 150px;
+  min-height: 170px;
   min-width: 120px;
   text-align: center;
   padding: 20px;
@@ -412,4 +416,26 @@ body {
 }
 .aptitude-analysis-segment-container {
   height: 750px;
+}
+.aptitude-analysis-indicator-container-1 {
+  width: 90%;
+}
+.aptitude-analysis-indicator-container {
+  width: 100%;
+}
+.banner {
+  background: linear-gradient(180deg, #8a4493 22%, rgb(93 51 134) 78%);
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.textalign-left {
+  text-align: left;
+}
+.width80-per {
+  width: 80%;
 }
