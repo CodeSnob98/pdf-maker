@@ -108,16 +108,6 @@ section {
   border-radius: 20px;
   margin-top: 30px;
 }
-.card-v2 {
-  min-height: 150px;
-  min-width: 120px;
-  text-align: center;
-  padding: 20px;
-  display: inline-block;
-  background-color: #645184;
-  border-radius: 12px;
-  color: rgba(255, 255, 255, 0.7);
-}
 .card-divider {
   margin: 12px;
   background-color: white;
@@ -284,11 +274,11 @@ body {
 }
 .divider {
   height: 2px;
-  background-color: white;
+  background: linear-gradient(90deg, #d860a3 10%, #95529f 90%);
+  opacity: 0.7;
   border-radius: 200;
   width: 90%;
   margin: 20px 30px;
-  opacity: 0.4;
 }
 /* Flex */
 .justifyCenter {
@@ -329,8 +319,8 @@ body {
 .mt20 {
   margin-top: 20px;
 }
-.mt40 {
-  margin-top: 40px;
+.mt100 {
+  margin-top: 100px;
 }
 .footer-header {
   margin: 0px;
@@ -388,6 +378,12 @@ body {
 .mt5 {
   margin-top: 5px;
 }
+.mt100 {
+  margin-top: 100px;
+}
+.mt40 {
+  margin-top: 40px;
+}
 .aptitude-dimensions-body {
   height: 680px;
 }
@@ -400,4 +396,20 @@ body {
 }
 .description-title {
   font-size: 20px;
+}
+.card-v2 {
+  min-height: 150px;
+  min-width: 120px;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+  background-color: #645184;
+  border-radius: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.aptitude-analysis-segment {
+  height: 170px;
+}
+.aptitude-analysis-segment-container {
+  height: 750px;
 }

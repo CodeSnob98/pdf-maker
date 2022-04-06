@@ -1,0 +1,20 @@
+<section>
+    <p class="title pl30 pt30">Aptitude Analysis</p>
+      <div class="divider"></div>
+      <div class="aptitude-analysis-segment-container centerAlign flexDirectionCol spaceBetween mt100">
+      {{#each aptitude_analysis}}
+      <div class="aptitude-analysis-segment centerAlign flexDirectionRow spaceBetween">
+      <div class="card-v2"></div>
+      {{#with overall_percentile_params}}
+      {{>indicator}}
+      {{/with}}
+      {{#with state_percentile_params}}
+      {{>indicator}}
+      {{/with}}
+      {{#with city_percentile_params}}
+      {{>indicator}}
+      {{/with}}
+      </div>
+      {{/each}}
+      </div>
+</section>
