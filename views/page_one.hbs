@@ -1,0 +1,90 @@
+<section>
+  <div class="personal-info">
+    <div class="name-contacts">
+      <p class="name">{{name}}</p>
+      <p class="contacts">Contact No: +91{{phn_number}}</p>
+      <p class="contacts">Email: {{mail_id}}</p>
+    </div>
+    <div class="social-profiles">
+      <p class="contacts">LinkedIn:
+        <a href="{{linkedin.url}}" target="_blank">{{linkedin.name}}</a></p>
+      <p class="contacts">Github:
+        <a href="{{github.url}}" target="_blank">{{github.name}}</a></p>
+    </div>
+  </div>
+
+  <div class="segment-header">
+    <div class="line"></div>
+    <div class="field-name">Education</div>
+  </div>
+
+  <div class="table">
+    <div class="table-row">
+      <div class="year">Year</div>
+      <div class="exam">Degree/Examination</div>
+      <div class="institution">Institution/Board</div>
+      <div class="result">CGPA/Percentage</div>
+    </div>
+    {{#each education}}
+      <div class="table-row">
+        <div style="height: 35px;" class="year">{{year}}</div>
+        <div style="height: 35px;" class="exam">{{degree}}</div>
+        <div style="height: 35px;" class="institution">{{board}}</div>
+        <div style="height: 35px;" class="result">{{result}}</div>
+      </div>
+    {{/each}}
+  </div>
+  <div class="segment-header">
+    <div class="line"></div>
+    <div class="field-name">Experience</div>
+  </div>
+  {{#each experience}}
+    <div class="exp-header">
+      <div class="company-position"><p class="company">{{company}}</p><div
+          class="seperator"
+        ></div><p class="position-length">{{position}}</p></div>
+      <p class="position-length">{{duration}}</p>
+    </div>
+    <p class="job-description">{{description}}</p>
+    <div class="works-done">
+      {{#each works_done}}
+        <div class="works">
+          <div class="dot"></div>
+          <div class="job-description" style="margin-left: 7px;">{{this}}</div>
+        </div>
+      {{/each}}
+    </div>
+  {{/each}}
+  <div class="segment-header">
+    <div class="line"></div>
+    <div class="field-name">Internship and Certifications</div>
+  </div>
+  {{#each internships}}
+    <div class="exp-header">
+      <div class="company-position"><p class="company">{{company}}</p><div
+          class="seperator"
+        ></div><p class="position-length">{{position}}</p></div>
+      <p class="position-length">{{duration}}</p>
+    </div>
+    <p class="job-description">{{description}}</p>
+  {{/each}}
+  <div class="segment-header mt-10">
+    <div class="line"></div>
+    <div class="field-name">Projects</div>
+  </div>
+  {{#each projects_one}}
+    <div class="project-header">
+      <div class="company-position"><p class="company">{{project_name}}</p><div
+          class="seperator"
+        ></div><p class="position-length">{{type}}</p>
+        <a class="ml-5" href="{{link}}"> link </a></p>
+        </div>
+        <p class="position-length">{{duration}}</p>
+    </div>
+    {{#each details}}
+        <div class="works">
+          <div class="job-description">{{this}}</div>
+        </div>
+      {{/each}}
+  {{/each}}
+</section>

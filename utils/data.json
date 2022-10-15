@@ -1,144 +1,142 @@
 {
-    "assignment_id":"8f656547-7da0-4d5e-8e56-b16d2daaf584",
-    "first_name":"Shaik",
-    "state":"Andhra Pradesh",
-    "city":"Cuddapah",
-    "assessment_date":"20/03/2022",
-    "grade":"8",
-    "overall_percentile":"92.3",
-    "overall_analytics":{
-       "state_percentile":"36.9",
-       "city_percentile":"58.3",
-       "overall_percentile":"92.3",
-       "percentage":"76",
-       "total_score":"3",
-       "total_questions":"10",
-       "overall_percentage":"1.21",
-       "attempted":"50",
-       "correct":"26",
-       "total_time_taken":"28 mins, 4 secs",
-       "sections":[
- {
-          "label":"Academics",
-          "city_percentile":"58.3",
-          "state_percentile":"36.9",
-          "overall_percentile":"92.3",
-          "total_score":"2",
-          "total_questions":"100",
-          "percentage":"76"
-       },
-       {
-          "label":"Aptitude",
-          "city_percentile":"58.3",
-          "state_percentile":"36.9",
-          "overall_percentile":"92.3",
-          "total_score":"2",
-          "total_questions":"100",
-          "percentage":"76"
-       }
-     ],
-       "trait":{
-          "name":"Rigour",
-          "narrative":"You are not afraid of challenging problems,you take them head on!"
-       }
+  "name": "Biswarup Mukherjee",
+  "phn_number": "6291477112",
+  "mail_id": "mukherjeebiswarup112233@gmail.com",
+  "linkedin": {
+    "url": "https://www.linkedin.com/in/biswarup-mukherjee-5107a118b/",
+    "name": "biswarup-mukherjee-5107a118b"
+  },
+  "github": {
+    "url": "https://github.com/CodeSnob98",
+    "name": "CodeSnob98"
+  },
+  "education": [
+    {
+      "year": 2020,
+      "degree": "B.Tech (EE)",
+      "board": "Meghnad Saha Institute of Technology, Kolkata",
+      "result": "7.98/10"
     },
-    "academic_analysis":[
-       {
-          "name":"Math",
-          "postion":"beginner",
-          "city_percentile":"58.3",
-          "state_percentile":"36.9",
-          "overall_percentile":"92.3",
-          "total_score":"2",
-          "total_questions":"100",
-          "percentage":"76",
-          "subject_narrative":"You are at the emerging level in the road to mastery.Focus on weaker concepts and improve yourscores to achieve mastery!",
-          "unit_analysis":[
-             {
-                "name":"Algebra",
-                "total_score":"2",
-                "total_questions":"10"
-             },
-             {
-                "name":"Geometry",
-                "total_score":"2",
-                "total_questions":"12"
-             }
-          ],
-          "unit_narrative":"You are at the emerging level "
-       },
-       {
-          "name":"Science",
-          "postion":"beginner",
-          "city_percentile":"58.3",
-          "state_percentile":"36.9",
-          "overall_percentile":"92.3",
-          "total_score":"2",
-          "total_questions":"100",
-          "percentage":"76",
-          "subject_narrative":"You are at the emerging level in the road to mastery.",
-          "unit_analysis":[
-             {
-                "name":"Chemistry",
-                "total_score":"2",
-                "total_questions":"10"
-             },
-             {
-                "name":"Bio",
-                "total_score":"2",
-                "total_questions":"10"
-             }
-          ],
-          "unit_narrative":"You scored excellent in Numbers while Statistics is a focus area."
-       }
-    ],
-    "academic_skill_analysis":{
-       "skills":[
-          {
-             "name":"Conceptual",
-             "total_score":"2",
-             "total_questions":"10",
-             "percentage":"43"
-          },
-          {
-             "name":"Application Based",
-             "total_score":"2",
-             "total_questions":"10",
-             "percentage":"43"
-          }
-       ],
-       "narrative": "Tarun has shown good conceptual understanding with conceptsin Geometry, Numbers, Algebra, Biology. This is really good."
+    {
+      "year": 2016,
+      "degree": "12th",
+      "board": "Sodepur High School, Kolkata",
+      "result": "78.6%"
     },
-    "aptitude_analysis":[
-       {
-          "name":"Quantitative Abiity",
-          "total_score":"2",
-          "total_questions":"10",
-          "city_percentile":"58.3",
-          "state_percentile":"36.9",
-          "overall_percentile":"92.3",
-          "percentage":"67",
-          "narrative":"Medium scores suggests that you need to spend more time in understanding mathematical tools and practice problems to significantly improve your accuracy and speed."
-       },
-       {
-          "name":"Verbal Ability",
-          "total_score":"1",
-          "total_questions":"10",
-          "city_percentile":"58.3",
-          "state_percentile":"36.9",
-          "overall_percentile":"67.3",
-          "percentage":"67",
-          "narrative":"Medium scores suggests that you need to spend more time in understanding mathematical tools and practice problems to significantly improve your accuracy and speed."
-       },
-       {
-          "name":"Logical Ability",
-          "total_score":"2",
-          "total_questions":"10",
-          "city_percentile":"58.3",
-          "state_percentile":"36.9",
-          "overall_percentile":"92.3",
-          "percentage":"67",
-          "narrative":"Medium scores suggests that you need to spend more time in understanding mathematical tools and practice problems to significantly improve your accuracy and speed."
-       }
-    ]
- }
+    {
+      "year": 2014,
+      "degree": "10th",
+      "board": "Sodepur High School, Kolkata",
+      "result": "80.0%"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Byju's the Learning App",
+      "position": "Software Engineer",
+      "duration": "September 2021 - Present",
+      "description": "Working as a React.js developer in Assessment team. Built efficient, responsive and robust Ed-Tech applications from scratch and maintained it. Executed many high priority feature releases. Brief description of few of my works are given below",
+      "works_done": [
+        "Result Generation Service: I am the main POC for the result generation of all the types of exams that takes place on Byju's platform, and also heavily contributed to the migration of the code base to a more efficient technology.",
+        "Test Taking Service: Worked and maintained the test taking platform of Byju's. Have contributed to the release of many big tests such as BST,BDT,BNAT,JEE/NEET etc.",
+        "Online analytical processing(OLAP) Services: Implemented OLAP services in various tests to monitor the student interaction with the platform, which helps to make the product more engaging."
+      ]
+    },
+    {
+      "company": "Darwinbox",
+      "position": "Software Engineer",
+      "duration": "December 2020 - September 2021",
+      "description": "Worked as an React and Angular developer, built robust, responsive HRMS applications  Brief description of a few of the projects are given below",
+      "works_done": [
+        "Analytics Module: This is a module added to handle the performance evaluation of the employees in a more efficient way.",
+        "Recruitment Dashboard: This is a module that is added to handle the interview process for the interviewer in a cleaner and more efficient way.",
+        "Candidate Web Service: This module is created to handle the job application process and tracking all the statuses of the application phase in a cleaner way for the candidates.",
+        "Travel and Expenses Module: This module is created to handle the travel expenses and the other reimbursements of the employees."
+      ]
+    }
+  ],
+  "internships": [
+    {
+      "company": "Newton School",
+      "position": "Fullstack Web Development Trainee",
+      "duration": "June 2020 - December 2020",
+      "description": "Made many solo Frontend, Backend and Fullstack projects using HTML,CSS,Javascript and MERN stack"
+    }
+  ],
+  "projects_one": [
+    {
+      "project_name": "An exact copy of Github issues page",
+      "type": "Personal Project",
+      "link": "https://codesandbox.io/s/664yg",
+      "duration": "July 2021 - July 2021",
+      "details": [
+        "• An exact copy of Github issues page",
+        "• Tech stack :HTML,CSS,JS,ReactJs,React-Redux,Redux-Saga,Axios."
+      ]
+    },
+    {
+      "project_name": "Chat application",
+      "type": "Personal Project",
+      "link": "https://codesandbox.io/s/yg462",
+      "duration": "July 2021 - July 2021",
+      "details": [
+        "• A simpler version of WhatsApp.",
+        "• Tech stack :HTML,CSS,JS,ReactJs,React-Redux,Redux-Saga,Axios."
+      ]
+    },
+    {
+      "project_name": "Color Picker app ",
+      "type": "Newton School",
+      "link": "https://codesandbox.io/s/paint-color-picker-fw3v9",
+      "duration": "November 2020 - November 2020",
+      "details": [
+        "• Paint color picker app.",
+        "• Tech stack :Javascript, React.js"
+      ]
+    },
+    {
+      "project_name": "Basic Calculator",
+      "type": "Newton School",
+      "link": "https://codesandbox.io/s/xl4gy",
+      "duration": "November 2020 - November 2020",
+      "details": [
+        "• Basic Calculator, to solve mathematical equations.",
+        "• Techstack: React,HTML,CSS,Javascript"
+      ]
+    }
+  ],
+  "projects_two": [
+    {
+      "project_name": "MPL Math Clash Game clone",
+      "type": "Newton School",
+      "link": "https://codesandbox.io/s/glq6r?file=/index.html",
+      "duration": "September 2020 - September 2020",
+      "details": [
+        "• A game to test quick math abilities of the user",
+        "• Solve the math problems within the given time",
+        "• Techstack: HTML,CSS,Javascript"
+      ]
+    },
+    {
+      "project_name": "Minesweeper game clone",
+      "type": "Newton School",
+      "link": "https://codesandbox.io/s/nmfe8",
+      "duration": "September 2020 - September 2020",
+      "details": [
+        "• Classic minesweeper game.",
+        "• On left-clicking each cell it will display the number of bombs around it.",
+        "• Successfully flag all the bombs to win.",
+        "• Techstack: HTML,CSS,Javascript."
+      ]
+    }
+  ],
+  "skills": {
+    "languages": "Languages: HTML, CSS, Javascript, Typescript.",
+    "libraries": "Libraries: React.js, Redux, React-Redux, Redux-thunk, Redux-saga, Axios, React testing library, Jest.",
+    "tools": "Tools: Webpack 5, Babel, Eslint, Sentry."
+  },
+  "achievements": [
+    "• Was awarded for the 'Ownership and Accountability' in Byju's Tech-X, the annual award distribution ceremony of Byju's.",
+    "• Was the finalist of the event 'Sand-Rover', a Wireless Robot Terrain Event held at Kshitij, 2018, IIT Kharagpur."
+  ]
+}

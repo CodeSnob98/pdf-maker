@@ -10,6 +10,7 @@ const app = express()
 const liveReloadServer=livereload.createServer();
 liveReloadServer.watch(path.join(__dirname, 'views'))
 
+
 liveReloadServer.server.once("connection", () => {
   setTimeout(() => {
     liveReloadServer.refresh("/");
@@ -17,7 +18,6 @@ liveReloadServer.server.once("connection", () => {
 });
 
 var indexRouter = require('./routes/index');
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');

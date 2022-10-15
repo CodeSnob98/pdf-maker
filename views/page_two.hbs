@@ -1,0 +1,31 @@
+<section style="margin-top:100px">
+ {{#each projects_two}}
+    <div class="project-header">
+      <div class="company-position"><p class="company">{{project_name}}</p><div
+          class="seperator"
+        ></div><p class="position-length">{{type}}</p>
+        <a class="ml-5" href="{{link}}"> link </a></p>
+        </div>
+        <p class="position-length">{{duration}}</p>
+    </div>
+    {{#each details}}
+        <div class="works">
+          <div class="job-description">{{this}}</div>
+        </div>
+      {{/each}}
+  {{/each}}
+  <div class="segment-header mt-10">
+    <div class="line"></div>
+    <div class="field-name">Skills</div>
+  </div>
+  <p class="job-description">{{skills.languages}}</p>
+  <p class="job-description">{{skills.libraries}}</p>
+  <p class="job-description">{{skills.tools}}</p>
+   <div class="segment-header mt-10">
+    <div class="line"></div>
+    <div class="field-name">Achievements</div>
+  </div>
+  {{#each achievements}}
+      <div class="job-description">{{this}}</div>
+  {{/each}}
+</section>
