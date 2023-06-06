@@ -6,9 +6,12 @@ const app = express();
 let { registerPartials } = require("./helpers/helpers");
 const response = require("./utils/data.json");
 
+// setting up view engine
+// mandatory step
 app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, "views"));
 
+// serving making contents of the stylesheets folder as static files
 app.use(express.static(path.join(__dirname, "stylessheets")));
 
 app.get("/pdf", (req, res) => {
@@ -33,5 +36,3 @@ app.get("/pdf", (req, res) => {
 app.listen(3000, () => {
   console.log("Successfully started the server");
 });
-
-module.exports = app;
