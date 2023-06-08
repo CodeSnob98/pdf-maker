@@ -38,6 +38,7 @@ const generatePDF = async (data) => {
     await page.setContent(html);
     const pdfReport = await page.pdf(options);
     fs.writeFileSync(`../${data.name}.pdf`, pdfReport);
+    browser.close();
     return data.name;
   } catch (err) {
     return err;
