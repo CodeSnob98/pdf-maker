@@ -17,23 +17,11 @@
     <div class="line"></div>
     <div class="field-name">Education</div>
   </div>
-
-  <div class="table">
-    <div class="table-row">
-      <div class="year">Year</div>
-      <div class="exam">Degree/Examination</div>
-      <div class="institution">Institution/Board</div>
-      <div class="result">CGPA/Percentage</div>
-    </div>
+  <ul>
     {{#each education}}
-      <div class="table-row">
-        <div style="height: 35px;" class="year">{{year}}</div>
-        <div style="height: 35px;" class="exam">{{degree}}</div>
-        <div style="height: 35px;" class="institution">{{board}}</div>
-        <div style="height: 35px;" class="result">{{result}}</div>
-      </div>
+    <li>Completed {{degree}} on {{year}} from {{board}} with {{result}}</li>
     {{/each}}
-  </div>
+  </ul>
   <div class="segment-header">
     <div class="line"></div>
     <div class="field-name">Experience</div>
@@ -55,19 +43,13 @@
       {{/each}}
     </div>
   {{/each}}
-  <div class="segment-header">
+   <div class="segment-header mt-10">
     <div class="line"></div>
-    <div class="field-name">Internship and Certifications</div>
+    <div class="field-name">Skills</div>
   </div>
-  {{#each internships}}
-    <div class="exp-header">
-      <div class="company-position"><p class="company">{{company}}</p><div
-          class="seperator"
-        ></div><p class="position-length">{{position}}</p></div>
-      <p class="position-length">{{duration}}</p>
-    </div>
-    <p class="job-description">{{description}}</p>
-  {{/each}}
+  <p class="job-description" style="line-height: 16px"><b>Languages : </b>{{skills.languages}}</p>
+  <p class="job-description" style="line-height: 20px"><b>Libraries & Technologies : </b>{{skills.libraries}}</p>
+  <p class="job-description" style="line-height: 16px"><b>Tools : </b>{{skills.tools}}</p>
   <div class="segment-header mt-10">
     <div class="line"></div>
     <div class="field-name">Projects</div>

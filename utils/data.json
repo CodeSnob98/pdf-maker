@@ -15,7 +15,7 @@
       "year": 2020,
       "degree": "B.Tech (EE)",
       "board": "Meghnad Saha Institute of Technology, Kolkata",
-      "result": "7.98/10"
+      "result": "CGPA 7.98/10"
     },
     {
       "year": 2016,
@@ -32,9 +32,20 @@
   ],
   "experience": [
     {
+      "company": "Paysense (an entity of PayU Finance)",
+      "position": "Software Engineer",
+      "duration": "September 2022 - Present",
+      "description": "Working as a Frontend developer and the main POC of Frontend in Lazypay team. I have worked on may high priority features and enhancements, but a brief description of few of my works are given below.",
+      "works_done": [
+        "Optimisation and security: Worked on enhancing the lighthouse scores and increased security measures for all the web client facing applications of Lazypay.",
+        "Increased developer effeciency: To increase developer efficiency I have created component libraries from scratch and to and contributed in github workflow.",
+        "Statement Generation Service : I created the statements generation service from scratch. Currently which is serving all types of statements of transaction or loans or other service related statements in PDF format."
+      ]
+    },
+    {
       "company": "Byju's the Learning App",
       "position": "Software Engineer",
-      "duration": "September 2021 - Present",
+      "duration": "September 2021 - September 2022",
       "description": "Working as a React.js developer in Assessment team. Built efficient, responsive and robust Ed-Tech applications from scratch and maintained it. Executed many high priority feature releases. Brief description of few of my works are given below",
       "works_done": [
         "Result Generation Service: I am the main POC for the result generation of all the types of exams that takes place on Byju's platform, and also heavily contributed to the migration of the code base to a more efficient technology.",
@@ -83,26 +94,6 @@
         "• A simpler version of WhatsApp.",
         "• Tech stack :HTML,CSS,JS,ReactJs,React-Redux,Redux-Saga,Axios."
       ]
-    },
-    {
-      "project_name": "Color Picker app ",
-      "type": "Newton School",
-      "link": "https://codesandbox.io/s/paint-color-picker-fw3v9",
-      "duration": "November 2020 - November 2020",
-      "details": [
-        "• Paint color picker app.",
-        "• Tech stack :Javascript, React.js"
-      ]
-    },
-    {
-      "project_name": "Basic Calculator",
-      "type": "Newton School",
-      "link": "https://codesandbox.io/s/xl4gy",
-      "duration": "November 2020 - November 2020",
-      "details": [
-        "• Basic Calculator, to solve mathematical equations.",
-        "• Techstack: React,HTML,CSS,Javascript"
-      ]
     }
   ],
   "projects_two": [
@@ -131,12 +122,17 @@
     }
   ],
   "skills": {
-    "languages": "Languages: HTML, CSS, Javascript, Typescript.",
-    "libraries": "Libraries: React.js, Redux, React-Redux, Redux-thunk, Redux-saga, Axios, React testing library, Jest.",
-    "tools": "Tools: Webpack 5, Babel, Eslint, Sentry."
+    "languages": "HTML, CSS, Javascript, Typescript.",
+    "libraries": "React.js, Next.js, Redux, React-Redux, Redux-thunk, Redux-saga, Axios, React testing library, Jest, Service Worker, Web Worker",
+    "tools": "Webpack 5, Rollup, Vite, Github workflow, Babel, Eslint, Sentry."
   },
   "achievements": [
-    "• Was awarded for the 'Ownership and Accountability' in Byju's Tech-X, the annual award distribution ceremony of Byju's.",
-    "• Was the finalist of the event 'Sand-Rover', a Wireless Robot Terrain Event held at Kshitij, 2018, IIT Kharagpur."
+    {
+      "text": "• Was awarded for my exceptional levels of Ownership, Openness, and Collaboration by Laurent Le Moal(Group CEO, PayU).",
+      "link": "https://drive.google.com/file/d/1K5-vWa70HYDTcO7mm7pT641q6LY5HXdq/view"
+    },
+    {
+      "text": "• Was awarded for the 'Ownership and Accountability' in Byju's Tech-X, the annual award distribution ceremony of Byju's."
+    }
   ]
 }

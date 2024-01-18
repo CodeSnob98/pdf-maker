@@ -14,18 +14,17 @@
         </div>
       {{/each}}
   {{/each}}
-  <div class="segment-header mt-10">
-    <div class="line"></div>
-    <div class="field-name">Skills</div>
-  </div>
-  <p class="job-description">{{skills.languages}}</p>
-  <p class="job-description">{{skills.libraries}}</p>
-  <p class="job-description">{{skills.tools}}</p>
    <div class="segment-header mt-10">
     <div class="line"></div>
     <div class="field-name">Achievements</div>
   </div>
   {{#each achievements}}
-      <div class="job-description">{{this}}</div>
+      <div class="job-description">{{text}}
+        {{#if link}}
+        <span>
+          You can find it <a href="{{link}}">here.</a>
+        </span>
+        {{/if}}
+      </div>
   {{/each}}
 </section>

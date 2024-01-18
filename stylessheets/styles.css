@@ -126,6 +126,7 @@ section {
 }
 .position-length {
   font: 0.9em "Fira Sans", sans-serif;
+  font-weight: 600;
 }
 .seperator {
   background-color: black;
@@ -167,4 +168,14 @@ section {
   justify-content: space-between;
   align-items: center;
   height: 20px;
+}
+ul {
+  font: 0.9em "Fira Sans", sans-serif;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 5px;
+}
+li {
+  margin: 5px;
 }
